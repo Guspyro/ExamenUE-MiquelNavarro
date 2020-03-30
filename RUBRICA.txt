@@ -1,0 +1,43 @@
+-(0,5p) Crear un Terrain como base jugable, texturizado y con vegetación.
+	Terrain jugable con 2 texturas, y 2 tipos de vegetación.
+
+- (0,5p) Todas las entradas nuevas de input (crear al menos 2) deberán estar
+mapeadas con Actions/Axis en vez de por eventos directos de
+teclado/mouse.
+	Añadido E para interactuar (al reiniciar el nivel), control para agacharse y click izquierdo para disparar.
+
+-(1p) Crear al menos 3 triggers con diferentes funcionalidades de entre las
+siguientes opciones:
+	Implementados coins recolectables, zona de muerte e inversión de controles.
+
+- (0,5p) Iluminar el escenario con al menos 3 tipos diferentes de luces. Y
+implementar una simulación del ciclo de día/noche.
+	Se usan 4 luces (point, spot, sky y directional) y hay ciclo de dia/noche.
+-(1p) Crear un HUD que muestre al menos 3 de las siguientes cosas:
+	Muestra coins, vida y tiempo.
+
+-(1p) Crear al menos 2 animaciones para los elementos de HUD.
+	Hay animación de entrada y recoger moneda.
+
+-(1p) Añadir 2 estados en el animation blueprint del Third Person con nuevas
+animaciones para el personaje de entre las siguientes opciones:
+	Idle y caminar agachado, usando control.
+
+- (0,5p) Crear y lanzar un sonido que al menos tenga 2 de estas
+características:
+	Hay dos sonidos de disparo, y ambos se ejecutan con pitch aleatorio.
+
+-(0,5p) Crear alguna funcionalidad en entre las siguientes, en el Level
+Blueprint:
+	Puedes entrar en un trigger y pulsar E para reiniciar el nivel.
+
+- (1,5p) Crear una IA a partir del third person controller que implemente 3 de
+las siguientes opciones:
+	La IA sigue al jugador, y si está cerca suyo al acabar de moverse, le atacará. La IA muere (deja de funcionar Brain) al tocar al player.
+
+- (0,5p) Aplicar la funcionalidad de que el player pueda poseer alguna IA.
+	Con click izquierdo disparas un proyectil que posee a la IA.
+
+- (0,5p) Crear eventos dentro de la animación que lancen un evento dentro del
+player.
+	Saltar lanza un evento que crea unas partículas de explosión.
